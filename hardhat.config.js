@@ -14,7 +14,6 @@ if (!ALCHEMY_API_KEY) {
   process.exit(1);
 }
 
-console.log("Sepolia URL:", `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`);
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {

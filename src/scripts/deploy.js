@@ -17,7 +17,6 @@ async function main() {
 
   // 4. Log the address of the deployed contract to the console
   // Replace 'transaction' with 'transactions' to fix the typo
-  console.log("Transactions deployed to:", transactions.target);
  
 }
 
